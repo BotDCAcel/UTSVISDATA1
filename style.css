@@ -1,0 +1,60 @@
+body {
+    /* Corresponds to BG_COLOR = '#111111' */
+    background-color: #111111; 
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.dashboard-container {
+    width: 90%; 
+    max-width: 1000px; /* Added max-width for better desktop viewing */
+    margin: 30px auto; 
+}
+
+.main-header {
+    /* Corresponds to HEADER_COLOR = '#8B4513' */
+    background-color: #8B4513; 
+    color: white;
+    padding: 15px 25px;
+    font-size: 20px; /* Reduced slightly from 24px for typical web header */
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 25px; 
+    border-radius: 5px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4); 
+}
+
+.visual-area {
+    display: flex; 
+    flex-direction: column;
+    gap: 20px; 
+}
+
+.module {
+    /* Corresponds to CHART_BG_COLOR = '#2C2C2C' */
+    background-color: #2C2C2C; 
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 8px;
+    overflow: hidden; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.full-width {
+    width: 100%;
+}
+
+.module img {
+    /* Image scaling to fit the module */
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .dashboard-container {
+        width: 95%;
+    }
+}

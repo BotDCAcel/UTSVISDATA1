@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Profit Penjualan dan Top Produk</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <header class="main-header">
+            Dashboard Profit Penjualan dan Top Produk
+        </header>
+
+        <div class="visual-area">
+            <div class="module full-width">
+                <img src="final_dashboard_rapi_v7.png" alt="Dashboard Profit Penjualan dan Top Produk">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
